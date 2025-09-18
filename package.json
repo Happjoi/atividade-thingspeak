@@ -1,0 +1,26 @@
+{
+  "name": "thingspeak-dashboard",
+  "version": "1.0.0",
+  "description": "Dashboard para visualização de dados de umidade e temperatura do ThingSpeak",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "thingspeak",
+    "dashboard",
+    "iot",
+    "umidade",
+    "temperatura"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT"
+}
